@@ -43,7 +43,7 @@ const Login = () => {
 				style={{
 					border: '1px solid black',
 					padding: '20px 60px',
-					margin: '2% 4%',
+					// margin: '2% 4%',
 				}}
 				onChange={(e) => setUsername(e.target.value)}
 			/>
@@ -53,7 +53,7 @@ const Login = () => {
 				style={{
 					border: '1px solid black',
 					padding: '20px 60px',
-					margin: '2% 4%',
+					// margin: '2% 4%',
 				}}
 				placeholder="enter password"
 				value={password}
