@@ -1,8 +1,12 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginFailure, loginSuccess, loginLoading } from '.../';
+import {
+	loginFailure,
+	loginSuccess,
+	loginLoading,
+} from '../Redux/Login/action';
 import { useNavigate } from 'react-router-dom';
-export const Login = () => {
+const Login = () => {
 	const [email, setUsername] = React.useState('');
 	const [password, setPassword] = React.useState('');
 	const dispatch = useDispatch();
@@ -60,3 +64,4 @@ export const Login = () => {
 		</>
 	);
 };
+export default Login;

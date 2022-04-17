@@ -25,5 +25,3 @@ export const loginReducer = (store = initState, { type, payload }) => {
 			return store;
 	}
 };
-
-//export { loginReducer };

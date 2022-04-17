@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Flats from './Flats/Flats';
-import Login from './Login/Login';
+import Login from './Login';
 import Home from './Home/Home';
 import Navbar from './Navbar/Navbar';
 const Routers = () => {
