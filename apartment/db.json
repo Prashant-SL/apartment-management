@@ -1,0 +1,19 @@
+{
+    "apartments":[
+        {
+            "id":1000,
+            "name":"Averna Avenue",
+            "type":"owner",
+            "block":"1",
+            "number":112,
+            "residents":4
+        },{
+            "id":1001,
+            "name":"Aventa Avenue",
+            "type":"manager",
+            "block":"2",
+            "number":12,
+            "residents":6
+        }
+    ]
+}
