@@ -61,6 +61,13 @@ const Login = () => {
 			/>
 			<br></br>
 			<button onClick={handleSubmit}>Submit</button>
+
+			<h1>Put these as login</h1>
+			<h3>
+				"email": "eve.holt@reqres.in",
+				<br />
+				"password": "cityslicka"
+			</h3>
 		</>
 	);
 };
