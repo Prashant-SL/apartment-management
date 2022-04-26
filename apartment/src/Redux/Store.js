@@ -1,9 +1,14 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux';
-import { loginReducer } from './Login/reducer';
-import thunk from 'redux-thunk';
 
-export const rootReducer = combineReducers({
-	login: loginReducer,
+import {adminReducer} from "./Admin/reducers"
+import {flatsReducer} from "./Flats/reducer"
+import {residentsReducer} from "./Residents/reducer"
+import {combineReducers, createStore} from "redux"
+
+const rootReducer = combineReducers({
+    admin: adminReducer,
+    flats: flatsReducer,
+    residents: residentsReducer
 });
 
-export const store = createStore(rootReducer, applyMiddleware(thunk));
+export const store = createStore(rootReducer);
+
